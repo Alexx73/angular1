@@ -1,0 +1,36 @@
+Usando Layouts
+
+
+ng generate component --skipTests=true
+
+ layout/footer --flat
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Alexx73/angular1.git
+git push -u origin main
+
+---------
+
+Commands : 
+npm install -g angular-cli-ghpages
+
+ng build --prod --base-href "https://alexx73.github.io/angular1/​"
+
+
+ng build --prod --base-href="https://alexx73.github.io/angular1/​"
+
+
+ngh --no-silent
+
+git config --global credential.helper wincred //if you get issue with auth
+
+npx angular-cli-ghpages — dir=dist/Project-name
+
+npx ngh --dir=dist/angularapp
+
+https://alexx73.github.io/angular1/
